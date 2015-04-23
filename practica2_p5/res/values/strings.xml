@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">practica2_p5</string>
+	<string-array name="ciudades_array">
+        <item>Medellin</item>
+        <item>Bogota</item>
+        <item>Cali</item>
+        <item>Pereira</item>
+        <item>Manizales</item>
+    </string-array>
+</resources>
