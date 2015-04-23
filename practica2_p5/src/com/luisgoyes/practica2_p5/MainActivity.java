@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity
 {
 	private boolean masculino = false;
-	private boolean[] hob = {false,false,false,false};
+	private boolean[] hob = {true,false,false,false};
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
