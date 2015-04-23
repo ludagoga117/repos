@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.luisgoyes.practica2_p2.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+        >
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="30dp"
+        	android:text="Número 1:" />
+    	<EditText
+    	    android:id="@+id/etNum1"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="30dp"
+        	android:hint="ingrese num 1"
+        	android:textStyle="italic"
+        	android:inputType="numberDecimal"/>
+	</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+        >
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="30dp"
+        	android:text="Número 2:" />
+    	<EditText
+    	    android:id="@+id/etNum2"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:hint="ingrese num 2"
+        	android:textSize="30dp"
+        	android:textStyle="italic"
+        	android:inputType="numberDecimal"/>
+	</LinearLayout>
+	
+    <RadioGroup 
+        android:id="@+id/rgOps"
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+        >
+        <RadioButton 
+            android:id="@+id/rSuma"
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/Op1"
+   			android:checked="true"
+            />
+        <RadioButton 
+            android:id="@+id/rResta"
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/Op2"
+            />
+        <RadioButton 
+            android:id="@+id/rMultiplicacion"
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/Op3"
+            />
+        <RadioButton 
+            android:id="@+id/rDivision"
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/Op4"
+            />
+        
+    </RadioGroup>
+    
+    <Button 
+        android:id="@+id/bCalcular"
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:textSize="30dp"
+   		android:text="Calcular"
+        />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+        >
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="30dp"
+        	android:text="Resultado:" />
+    	<EditText
+    	    android:id="@+id/etResult"
+    	    android:textSize="30dp"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textStyle="italic"
+        	android:inputType="numberDecimal"/>
+	</LinearLayout>
+
+</LinearLayout>
