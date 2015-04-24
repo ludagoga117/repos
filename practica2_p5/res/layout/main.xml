@@ -110,7 +110,15 @@
 				android:layout_height="wrap_content"
 				android:text="Fecha de nacimiento:"
 				android:textSize="30dp"/>
-
+			<EditText
+				android:id="@+id/etFecha"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="dd/mm/yyyy"
+				android:textSize="30dp"
+				android:inputType="date"
+				android:enabled="false"
+				/>
 			<Button 
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
@@ -169,13 +177,61 @@
 			android:textSize="30dp"
 			android:onClick="onButtonSalvarClicked"
 		/>
-
-		<EditText
-			android:id="@+id/etOutput"
-			android:layout_width="match_parent"
+////////////////////
+		<TextView
+			android:id="@+id/tvNombre"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:hint="Nuevo usuario..."
+			android:text="Nombre: "
 			android:textSize="30dp"
-			android:inputType="numberDecimal"/>
+		/>
+		
+		<TextView
+		    android:id="@+id/tvTelefono"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Telefono: "
+			android:textSize="30dp"
+		/>
+		
+		<TextView
+		    android:id="@+id/tvEmail"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Email: "
+			android:textSize="30dp"
+		/>
+		
+		<TextView
+		    android:id="@+id/tvSexo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sexo: "
+			android:textSize="30dp"
+		/>
+		
+		<TextView
+		    android:id="@+id/tvEdad"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Edad: "
+			android:textSize="30dp"
+		/>
+		
+		<TextView
+		    android:id="@+id/tvCiudad"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Ciudad de nacimiento:"
+			android:textSize="30dp"
+		/>
+		
+		<TextView
+		    android:id="@+id/tvHobbies"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Hobbies:"
+			android:textSize="30dp"
+		/>
 	</LinearLayout>
 </ScrollView>
