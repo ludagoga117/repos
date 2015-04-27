@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Area computing</string>
+	<string name="app_name">practica2_p4</string>
+	<string name="app_name_p">Area computing</string>
 	<string name="base">Base:</string>
 	<string name="altura">Height:</string>
 	<string name="radio">Radio:</string>

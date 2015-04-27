@@ -100,12 +100,12 @@ public class MainActivity extends Activity implements OnItemSelectedListener
 			PD1.setTelefono(cEt2);
 			PD1.setDireccion(cEt3);
 			PD1.setNascita(year_x, month_x, day_x);
-			tv_Nombre.setText("Nombre: "+PD1.getNombre());
-			tv_Telefono.setText("Telefono: "+PD1.getTelefono());
-			tv_Email.setText("Email: "+PD1.getDireccion());
-			String temp = (masculino==true)?"Masculino":"Femenino";
-			tv_Sexo.setText("Sexo: "+temp);
-			tv_Edad.setText("Edad: "+PD1.getEdad());
+			tv_Nombre.setText(getResources().getString(R.string.name)+" "+PD1.getNombre());
+			tv_Telefono.setText(getResources().getString(R.string.Telefono)+" "+PD1.getTelefono());
+			tv_Email.setText(getResources().getString(R.string.Email)+" "+PD1.getDireccion());
+			String temp = (masculino==true)?getResources().getString(R.string.Masculino):getResources().getString(R.string.Femenino);
+			tv_Sexo.setText(getResources().getString(R.string.Sexo)+" "+temp);
+			tv_Edad.setText(getResources().getString(R.string.age)+" "+PD1.getEdad());
 			String tempCi = "";
 			switch (seleccionado){
 			case 0:
@@ -124,16 +124,16 @@ public class MainActivity extends Activity implements OnItemSelectedListener
 				tempCi = "Manizales";
 				break;
 			}
-			tv_Ciudad.setText("Ciudad: "+tempCi);
+			tv_Ciudad.setText(getResources().getString(R.string.Ciudad)+" "+tempCi);
 			String tempHob = "";
-			if(hob[0]) tempHob = tempHob + "Rascarse la barriga. ";
-			if(hob[1]) tempHob = tempHob + "Ver tv. ";
-			if(hob[2]) tempHob = tempHob + "Leer. ";
-			if(hob[3]) tempHob = tempHob + "Ver películas. ";
+			if(hob[0]) tempHob = tempHob + getResources().getString(R.string.h1)+". ";
+			if(hob[1]) tempHob = tempHob + getResources().getString(R.string.h2)+". ";
+			if(hob[2]) tempHob = tempHob + getResources().getString(R.string.h3)+". ";
+			if(hob[3]) tempHob = tempHob + getResources().getString(R.string.h4)+". ";
 			if(!hob[0]&!hob[1]&!hob[2]&!hob[3]){
-				tempHob = tempHob + "Ni pio.";
+				tempHob = tempHob + "Yuca";
 			}
-			tv_Hobbies.setText("Hobbies: "+tempHob);
+			tv_Hobbies.setText(getResources().getString(R.string.hobbies)+" "+tempHob);
 		}
 	}
 	

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">practica2_p5</string>
+    <string name="app_name_p">Base de datos</string>
+    <string name="name">Nombre completo:</string>
+    <string name="hname">Ingrese nombre y apellidos</string>
+    <string name="Telefono">Número de teléfono:</string>
+    <string name="hTelefono">555-55-55</string>
+    <string name="Email">E-mail:</string>
+    <string name="hEmail">miEmail@ejemplo.com</string>
+    <string name="Sexo">Sexo:</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Masculino">Masculino</string>
+    <string name="fecha">Fecha de nacimiento:</string>
+    <string name="hfecha">dd/mm/aaaa</string>
+    <string name="Elegir">Elegir</string>
+    <string name="Ciudad">Birthplace:</string>
+    <string name="hobbies">Hobbies:</string>
+    <string name="h1">Rascarse la barriga</string>
+    <string name="h2">Ver tv</string>
+    <string name="h3">Leer</string>
+    <string name="h4">Ver películas</string>
+    <string name="save">Salvar</string>
+    <string name="age">Edad:</string>
+	<string-array name="ciudades_array">
+        <item>Medellin</item>
+        <item>Bogota</item>
+        <item>Cali</item>
+        <item>Pereira</item>
+        <item>Manizales</item>
+    </string-array>
+</resources>

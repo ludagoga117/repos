@@ -20,7 +20,8 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/name"
-				android:textSize="30dp"/>
+				android:textSize="30dp"
+				/>
 			<EditText
 				android:id="@+id/etNombre"
 				android:layout_width="fill_parent"
@@ -30,17 +31,12 @@
 				android:inputType="text"
 				android:layout_weight="1"
 				/>
-		</LinearLayout>
-
-		<LinearLayout
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:orientation="horizontal">
 			<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/Telefono"
-				android:textSize="30dp"/>
+				android:textSize="30dp"
+				/>
 			<EditText
 				android:id="@+id/etTelefono"
 				android:layout_width="fill_parent"

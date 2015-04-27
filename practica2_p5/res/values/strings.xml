@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">practica2_p5</string>
+    <string name="app_name_p">Data base</string>
+    <string name="name">Full name:</string>
+    <string name="hname">Insert name and family name</string>
+    <string name="Telefono">Telephone number:</string>
+    <string name="hTelefono">555-55-55</string>
+    <string name="Email">E-mail:</string>
+    <string name="hEmail">myEmail@example.com</string>
+    <string name="Sexo">Sex:</string>
+    <string name="Femenino">Feminine</string>
+    <string name="Masculino">Masculine</string>
+    <string name="fecha">Birthdate:</string>
+    <string name="hfecha">dd/mm/yyyy</string>
+    <string name="Elegir">Select</string>
+    <string name="Ciudad">Birthplace:</string>
+    <string name="hobbies">Hobbies:</string>
+    <string name="h1">Scratching</string>
+    <string name="h2">Watching tv</string>
+    <string name="h3">Reading</string>
+    <string name="h4">Watching movies</string>
+    <string name="save">Save</string>
+    <string name="age">Age:</string>
 	<string-array name="ciudades_array">
         <item>Medellin</item>
         <item>Bogota</item>
