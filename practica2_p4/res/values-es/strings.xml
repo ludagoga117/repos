@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Calculo de area</string>
+	<string name="base">Base:</string>
+	<string name="altura">Altura:</string>
+	<string name="radio">Radio:</string>
+	<string name="lado">Lado:</string>
+	<string name="triangulo">Triangulo</string>
+	<string name="cuadrado">Cuadrado</string>
+	<string name="rectangulo">Rectangulo</string>
+	<string name="circulo">Circulo</string>
+	<string name="compute">Calcular</string>
+	<string name="area">Area (u^2):</string>
+</resources>

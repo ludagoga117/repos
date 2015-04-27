@@ -6,8 +6,8 @@
 	<LinearLayout
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
-		android:orientation="vertical"
-	>	
+		android:orientation="vertical">
+
 		<LinearLayout
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
@@ -22,67 +22,61 @@
 				android:textColor="#fe0000"/>
 		</LinearLayout>
 		<LinearLayout
-			android:layout_width="fill_parent"
+			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
-			<TextView
-				style="@style/textViewStyle.in"
-				android:text="@string/base"
-				/>
-			<EditText
-				android:id="@+id/etBase"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:hint="0.0"
-				android:textSize="30dp"
-				android:inputType="numberDecimal"
-				android:layout_weight="1"
-				/>
-			<TextView
-				style="@style/textViewStyle.in"
-				android:text="@string/altura"
-				/>
-			<EditText
-				android:id="@+id/etAltura"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:hint="0.0"
-				android:textSize="30dp"
-				android:inputType="numberDecimal"
-				android:layout_weight="1"
-				/>
-		</LinearLayout>
-
-		<LinearLayout
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:orientation="horizontal">
-			<TextView
-				style="@style/textViewStyle.in"
-				android:text="@string/radio"
-				/>
-			<EditText
-				android:id="@+id/etRadio"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:hint="0.0"
-				android:textSize="30dp"
-				android:inputType="numberDecimal"
-				android:layout_weight="1"
-				/>
-			<TextView
-				style="@style/textViewStyle.in"
-				android:text="@string/lado"
-				/>
-			<EditText
-				android:id="@+id/etLado"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:hint="0.0"
-				android:textSize="30dp"
-				android:inputType="numberDecimal"
-				android:layout_weight="1"
-				/>
+				<TextView
+					style="@style/textViewStyle.in"
+					android:text="@string/base"
+					/>
+				<EditText
+					android:id="@+id/etBase"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:hint="0.0"
+					android:textSize="30dp"
+					android:inputType="numberDecimal"
+					android:layout_weight="1"
+					/>
+				<TextView
+					style="@style/textViewStyle.in"
+					android:text="@string/altura"
+					/>
+				<EditText
+					android:id="@+id/etAltura"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:hint="0.0"
+					android:textSize="30dp"
+					android:inputType="numberDecimal"
+					android:layout_weight="1"
+					/>
+				<TextView
+					style="@style/textViewStyle.in"
+					android:text="@string/radio"
+					/>
+				<EditText
+					android:id="@+id/etRadio"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:hint="0.0"
+					android:textSize="30dp"
+					android:inputType="numberDecimal"
+					android:layout_weight="1"
+					/>
+				<TextView
+					style="@style/textViewStyle.in"
+					android:text="@string/lado"
+					/>
+				<EditText
+					android:id="@+id/etLado"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:hint="0.0"
+					android:textSize="30dp"
+					android:inputType="numberDecimal"
+					android:layout_weight="1"
+					/>
 		</LinearLayout>
 
 		<RadioGroup 
@@ -130,18 +124,18 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal"
 			android:layout_gravity="center_horizontal"
-		>
+			>
 			<TextView
 				style="@style/textViewStyle"
 				android:text="@string/area"
-			/>
+				/>
 			<EditText
 				android:id="@+id/etArea"
 				style="@style/textViewStyle.in"
 				android:hint="0.0"
 				android:inputType="numberDecimal"
 				android:enabled="false"
-			/>
+				/>
 		</LinearLayout>
 	</LinearLayout>
 </ScrollView>

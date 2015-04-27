@@ -16,7 +16,7 @@ public class MainActivity extends Activity
 	{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-		
+
 		final EditText h= (EditText) findViewById(R.id.etAltura);
 		final EditText b= (EditText) findViewById(R.id.etBase);
 		final EditText l= (EditText) findViewById(R.id.etLado);
@@ -32,13 +32,13 @@ public class MainActivity extends Activity
 					opcion = (RadioButton) findViewById(choise);
 					String sOpcion = opcion.getText().toString();
 					int nOpcion = 0;
-					if(sOpcion.compareTo("Triangulo")==0)
+					if(sOpcion.compareTo(getResources().getString(R.string.triangulo))==0)
 						nOpcion = 1;
-					else if(sOpcion.compareTo("Cuadrado")==0)
+					else if(sOpcion.compareTo(getResources().getString(R.string.cuadrado))==0)
 						nOpcion = 2;
-					else if(sOpcion.compareTo("Rectangulo")==0)
+					else if(sOpcion.compareTo(getResources().getString(R.string.rectangulo))==0)
 						nOpcion = 3;
-					else if(sOpcion.compareTo("Circulo")==0)
+					else if(sOpcion.compareTo(getResources().getString(R.string.circulo))==0)
 						nOpcion = 4;
 					switch(nOpcion){
 						case 1:
@@ -81,10 +81,10 @@ public class MainActivity extends Activity
 					if(error==false){
 						ans.setText(Double.toString(n));
 					}else{
-						ans.setText("0.0");
+						ans.setText("");
 						Toast.makeText(getApplicationContext(), "Error: faltan datos", Toast.LENGTH_SHORT).show();
 					}
 				}
 			});
-    	}
 	}
+}
