@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">practica2_p3</string>
+    <string name="action_settings">Settings</string>
+	<string name="title">Calculo de nota final</string>
+	<string name="N1">Quices (15%):</string>
+	<string name="N2">Exposiciones (10%):</string>
+	<string name="N3">Laboratorio (40%):</string>
+	<string name="N4">Proyecto Final (35%):</string>
+	<string name="calc">Calcular</string>
+</resources>

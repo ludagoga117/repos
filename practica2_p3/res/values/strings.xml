@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">practica2_p3</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+	<string name="title">Final grade computing</string>
+	<string name="N1">Short tests (15%):</string>
+	<string name="N2">Expositions (10%):</string>
+	<string name="N3">Laboratories (40%):</string>
+	<string name="N4">Final project (35%):</string>
+	<string name="calc">Compute</string>
 </resources>
