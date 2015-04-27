@@ -32,13 +32,13 @@ public class MainActivity extends Activity {
 					opcion = (RadioButton) findViewById(choise);
 					String sOpcion = opcion.getText().toString();
 					int nOpcion = 0;
-					if(sOpcion.compareTo("Suma")==0)
+					if(sOpcion.compareTo(getResources().getString(R.string.Op1))==0)
 						nOpcion = 1;
-					else if(sOpcion.compareTo("Resta")==0)
+					else if(sOpcion.compareTo(getResources().getString(R.string.Op2))==0)
 						nOpcion = 2;
-					else if(sOpcion.compareTo("Multiplicacion")==0)
+					else if(sOpcion.compareTo(getResources().getString(R.string.Op3))==0)
 						nOpcion = 3;
-					else if(sOpcion.compareTo("Division")==0)
+					else if(sOpcion.compareTo(getResources().getString(R.string.Op4))==0)
 						nOpcion = 4;
 					double n1 = Double.parseDouble(num1.getText().toString());
 					double n2 = Double.parseDouble(num2.getText().toString());
@@ -57,11 +57,11 @@ public class MainActivity extends Activity {
 							if(n2!=0) n = n1 / n2;
 							break;
 						default:
-							ans.setText("Error: Option not found");
+							ans.setText(getResources().getString(R.string.ErrorO));
 					}
 					if(nOpcion>=1&nOpcion<=4){
 						if(nOpcion==4&n2==0)
-							ans.setText("Error: Division by zero");
+							ans.setText(getResources().getString(R.string.ErrorD));
 						else
 							ans.setText(Double.toString(n));
 					}
