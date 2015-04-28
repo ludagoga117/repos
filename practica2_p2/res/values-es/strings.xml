@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">practica2_p2</string>
+    <string name="app_name_p">Calculadora básica</string>
     <string name="action_settings">Settings</string>
     <string name="N1">Número 1:</string>
     <string name="N2">Número 2:</string>
@@ -13,6 +14,6 @@
     <string name="Resultado">Resultado:</string>
     <string name="ErrorO">Error: Opción no válida</string>
     <string name="ErrorD">Error: División entre cero</string>
-    
+    <string name="ErrorN">Error: Faltan operadores</string>
 
 </resources>

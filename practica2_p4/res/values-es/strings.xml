@@ -12,4 +12,5 @@
 	<string name="circulo">Circulo</string>
 	<string name="compute">Calcular</string>
 	<string name="area">Area (u^2):</string>
+	<string name="errorF">Error: faltan datos</string>
 </resources>

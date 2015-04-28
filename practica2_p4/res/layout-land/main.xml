@@ -14,57 +14,42 @@
 			android:orientation="vertical"
 			android:layout_gravity="center_horizontal">
 			<TextView
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:text="@string/app_name_p"
-				android:textStyle="italic"
-				android:textSize="40dp"
-				android:textColor="#fe0000"/>
+				style="@style/stextView.Titulo"
+				android:text="@string/app_name_p"/>
 		</LinearLayout>
 		<LinearLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 				<TextView
-					style="@style/textViewStyle"
-					android:text="@string/base"
-					/>
+					style="@style/stextView"
+					android:text="@string/base"/>
 				<EditText
 					android:id="@+id/etBase"
-					style="@style/textViewStyle.in"
-					android:hint="0.0"
-					android:inputType="numberDecimal"
-					/>
+					style="@style/stextView.et.fit"
+					android:hint="0.0"/>
 				<TextView
-					style="@style/textViewStyle"
-					android:text="@string/altura"
-					/>
+					style="@style/stextView"
+					android:text="@string/altura"/>
 				<EditText
 					android:id="@+id/etAltura"
-					style="@style/textViewStyle.in"
-					android:hint="0.0"
-					android:inputType="numberDecimal"
-					/>
+					style="@style/stextView.et.fit"
+					android:hint="0.0"/>
 				<TextView
-					style="@style/textViewStyle"
-					android:text="@string/radio"
-					/>
+					style="@style/stextView"
+					android:text="@string/radio"/>
 				<EditText
 					android:id="@+id/etRadio"
-					style="@style/textViewStyle.in"
-					android:hint="0.0"
-					android:inputType="numberDecimal"
-					/>
+					style="@style/stextView.et.fit"
+					android:hint="0.0"/>
 				<TextView
-					style="@style/textViewStyle"
+					style="@style/stextView"
 					android:text="@string/lado"
 					/>
 				<EditText
 					android:id="@+id/etLado"
-					style="@style/textViewStyle.in"
-					android:hint="0.0"
-					android:inputType="numberDecimal"
-					/>
+					style="@style/stextView.et.fit"
+					android:hint="0.0"/>
 		</LinearLayout>
 
 		<RadioGroup 
@@ -74,23 +59,23 @@
 		>
 			<RadioButton 
 				android:id="@+id/rTriangulo"
-				style="@style/textViewStyle"
+				style="@style/stextView"
 				android:text="@string/triangulo"
 				android:checked="true"
 			/>
 			<RadioButton 
 				android:id="@+id/rCuadro"
-				style="@style/textViewStyle"
+				style="@style/stextView"
 				android:text="@string/cuadrado"
 			/>
 			<RadioButton 
 				android:id="@+id/rRect"
-				style="@style/textViewStyle"
+				style="@style/stextView"
 				android:text="@string/rectangulo"
 			/>
 			<RadioButton 
 				android:id="@+id/rCirculo"
-				style="@style/textViewStyle"
+				style="@style/stextView"
 				android:text="@string/circulo"
 			/>
 		</RadioGroup>
@@ -103,7 +88,7 @@
 		>
 			<Button
 				android:id="@+id/bCalcular"
-				style="@style/textViewStyle"
+				style="@style/stextView"
 				android:text="@string/compute"
 			/>
 		</LinearLayout>
@@ -114,14 +99,13 @@
 			android:layout_gravity="center_horizontal"
 			>
 			<TextView
-				style="@style/textViewStyle"
+				style="@style/stextView"
 				android:text="@string/area"
 				/>
 			<EditText
 				android:id="@+id/etArea"
-				style="@style/textViewStyle.in"
+				style="@style/stextView.et.fit"
 				android:hint="0.0"
-				android:inputType="numberDecimal"
 				android:enabled="false"
 				/>
 		</LinearLayout>

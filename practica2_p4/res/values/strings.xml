@@ -12,4 +12,5 @@
 	<string name="circulo">Circle</string>
 	<string name="compute">Compute</string>
 	<string name="area">Area (u^2):</string>
+	<string name="errorF">Error: There are fields missing</string>
 </resources>

@@ -7,20 +7,16 @@
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:orientation="vertical"
-	>	
-
+	>
 		<TextView
-			style="@style/textViewTitulo"/>
-
+			style="@style/stextView.Titulo"/>
 		<LinearLayout
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/name"
-				android:textSize="30dp"/>
+				style="@style/stextView"
+				android:text="@string/name"/>
 			<EditText
 				android:id="@+id/etNombre"
 				android:layout_width="0dp"
@@ -37,10 +33,8 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/Telefono"
-				android:textSize="30dp"/>
+				style="@style/stextView"
+				android:text="@string/Telefono"/>
 			<EditText
 				android:id="@+id/etTelefono"
 				android:layout_width="0dp"
@@ -57,10 +51,8 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/Email"
-				android:textSize="30dp"/>
+				style="@style/stextView"
+				android:text="@string/Email"/>
 			<EditText
 				android:id="@+id/etCorreo"
 				android:layout_width="0dp"
@@ -73,11 +65,8 @@
 		</LinearLayout>
 
 		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/Sexo"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/Sexo"/>
 
 		<RadioGroup 
 			android:id="@+id/rgOps"
@@ -85,16 +74,14 @@
 			android:layout_height="wrap_content">
 				<RadioButton 
 					android:id="@+id/rFemenino"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
+					style="@style/stextView"
 					android:text="@string/Femenino"
 					android:checked="true"
 					android:onClick="onRadioButtonClicked"
 				/>
 				<RadioButton 
 					android:id="@+id/rMasculino"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
+					style="@style/stextView"
 					android:text="@string/Masculino"
 					android:onClick="onRadioButtonClicked"
 				/>
@@ -105,10 +92,8 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/fecha"
-				android:textSize="30dp"/>
+				style="@style/stextView"
+				android:text="@string/fecha"/>
 			<EditText
 				android:id="@+id/etFecha"
 				android:layout_width="0dp"
@@ -120,8 +105,7 @@
 				android:layout_weight="1"
 				/>
 			<Button 
-				android:layout_width="wrap_content" 
-				android:layout_height="wrap_content"
+				style="@style/stextView"
 				android:text="@string/Elegir" 
 				android:onClick="showDatePickerDialog"/>
 		</LinearLayout>
@@ -131,10 +115,8 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/Ciudad"
-				android:textSize="30dp"/>
+				style="@style/stextView"
+				android:text="@string/Ciudad"/>
 			<Spinner
 				android:id="@+id/spCiudades"
 				android:layout_width="fill_parent"
@@ -142,96 +124,66 @@
 		</LinearLayout>
 		
 		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/hobbies"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/hobbies"/>
 		
 		<CheckBox android:id="@+id/cb_rascar"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			style="@style/stextView"
 			android:text="@string/h1"
 			android:onClick="onCheckboxClicked"/>
 		<CheckBox android:id="@+id/cb_tv"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			style="@style/stextView"
 			android:text="@string/h2"
 			android:onClick="onCheckboxClicked"/>
 		<CheckBox android:id="@+id/cb_leer"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			style="@style/stextView"
 			android:text="@string/h3"
 			android:onClick="onCheckboxClicked"/>
 		<CheckBox android:id="@+id/cb_pelicula"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			style="@style/stextView"
 			android:text="@string/h4"
 			android:onClick="onCheckboxClicked"/>
 		
 		<Button
 			android:id="@+id/bSalvar"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			style="@style/stextView"
 			android:text="@string/save"
-			android:textSize="30dp"
 			android:onClick="onButtonSalvarClicked"
 		/>
 ////////////////////
 		<TextView
 			android:id="@+id/tvNombre"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/name"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/name"/>
 		
 		<TextView
 		    android:id="@+id/tvTelefono"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/Telefono"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/Telefono"/>
 		
 		<TextView
 		    android:id="@+id/tvEmail"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/Email"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/Email"/>
 		
 		<TextView
 		    android:id="@+id/tvSexo"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/Sexo"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/Sexo"/>
 		
 		<TextView
 		    android:id="@+id/tvEdad"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/age"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/age"/>
 		
 		<TextView
 		    android:id="@+id/tvCiudad"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/Ciudad"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/Ciudad"/>
 		
 		<TextView
 		    android:id="@+id/tvHobbies"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/hobbies"
-			android:textSize="30dp"
-		/>
+			style="@style/stextView"
+			android:text="@string/hobbies"/>
 	</LinearLayout>
 </ScrollView>

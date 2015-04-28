@@ -10,4 +10,5 @@
 	<string name="N4">Proyecto Final (35%):</string>
 	<string name="calc">Calcular</string>
 	<string name="errorN">Error: Faltan notas por añadir</string>
+	<string name="errorO">Error: Nota(s) fuera de rango [0-5]</string>
 </resources>

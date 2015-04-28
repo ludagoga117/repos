@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	private RadioButton opcion;
@@ -23,9 +24,10 @@ public class MainActivity extends Activity {
 		final Button boton = (Button) findViewById(R.id.bCalcular);
 		boton.setOnClickListener(new View.OnClickListener(){
 			public void onClick(View v){
-				if(num1.getText().toString().isEmpty()|num2.getText().toString().isEmpty())
+				if(num1.getText().toString().isEmpty()|num2.getText().toString().isEmpty()){
 					ans.setText(Double.toString(0.0));
-				else{
+					Toast.makeText(getApplicationContext(), getResources().getString(R.string.ErrorN), Toast.LENGTH_SHORT).show();
+				}else{
 					//get selected radio button from radioGroup
 					int choise = opciones.getCheckedRadioButtonId();
 					//Find the radiobutton by returned id
@@ -57,12 +59,14 @@ public class MainActivity extends Activity {
 							if(n2!=0) n = n1 / n2;
 							break;
 						default:
-							ans.setText(getResources().getString(R.string.ErrorO));
+							ans.setText("");
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.ErrorO), Toast.LENGTH_SHORT).show();
 					}
 					if(nOpcion>=1&nOpcion<=4){
-						if(nOpcion==4&n2==0)
-							ans.setText(getResources().getString(R.string.ErrorD));
-						else
+						if(nOpcion==4&n2==0){
+							ans.setText("NaN");
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.ErrorD), Toast.LENGTH_SHORT).show();
+						}else
 							ans.setText(Double.toString(n));
 					}
 				}

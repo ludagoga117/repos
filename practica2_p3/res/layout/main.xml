@@ -5,90 +5,8 @@
     android:orientation="vertical" >
 
 	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		style="@style/stextView.Titulo"
 		android:text="@string/title"
-		android:textStyle="italic"
-		android:textSize="40dp"/>
-	
-	<LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal">
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/N1"
-			android:textSize="30dp"/>
-		<EditText
-			android:id="@+id/etQuices"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:hint="0.0"
-			android:textSize="30dp"
-			android:inputType="numberDecimal"/>
-	</LinearLayout>
-	
-	<LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal">
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/N2"
-			android:textSize="30dp"/>
-		<EditText
-			android:id="@+id/etExpo"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:hint="0.0"
-			android:textSize="30dp"
-			android:inputType="numberDecimal"/>
-	</LinearLayout>
-	
-	<LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal">
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/N3"
-			android:textSize="30dp"/>
-		<EditText
-			android:id="@+id/etLab"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:hint="0.0"
-			android:textSize="30dp"
-			android:inputType="numberDecimal"/>
-	</LinearLayout>
-	
-	<LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal">
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/N4"
-			android:textSize="30dp"/>
-		<EditText
-			android:id="@+id/etProyecto"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:hint="0.0"
-			android:textSize="30dp"
-			android:inputType="numberDecimal"/>
-	</LinearLayout>
-	
-	<Button
-		android:id="@+id/bCalcular"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="@string/calc"
-		android:textSize="30dp"
 		/>
 	
 	<LinearLayout
@@ -96,17 +14,69 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal">
 		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="(100%):"
-			android:textSize="30dp"/>
+			style="@style/stextView"
+			android:text="@string/N1"/>
+		<EditText
+			android:id="@+id/etQuices"
+			style="@style/stextView.et"
+			android:hint="0.0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			style="@style/stextView"
+			android:text="@string/N2"/>
+		<EditText
+			android:id="@+id/etExpo"
+			style="@style/stextView.et"
+			android:hint="0.0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			style="@style/stextView"
+			android:text="@string/N3"/>
+		<EditText
+			android:id="@+id/etLab"
+			style="@style/stextView.et"
+			android:hint="0.0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			style="@style/stextView"
+			android:text="@string/N4"/>
+		<EditText
+			android:id="@+id/etProyecto"
+			style="@style/stextView.et"
+			android:hint="0.0"/>
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/bCalcular"
+		style="@style/stextView"
+		android:text="@string/calc"/>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			style="@style/stextView"
+			android:text="(100%):"/>
 		<EditText
 			android:id="@+id/etDefinitiva"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
+			style="@style/stextView.et"
 			android:hint="0.0"
-			android:textSize="30dp"
-			android:inputType="numberDecimal"
 			android:enabled="false"/>
 	</LinearLayout>
 </LinearLayout>

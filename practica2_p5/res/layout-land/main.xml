@@ -10,7 +10,8 @@
 	>	
 
 		<TextView
-			style="@style/textViewTitulo"/>
+			style="@style/textViewTitulo"
+			/>
 
 		<LinearLayout
 			android:layout_width="fill_parent"

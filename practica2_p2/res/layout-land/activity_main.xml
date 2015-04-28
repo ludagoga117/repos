@@ -5,6 +5,10 @@
     android:orientation="vertical"
     tools:context="com.luisgoyes.practica2_p2.MainActivity" >
 
+    <TextView
+		style="@style/stextView.Titulo"
+		android:text="@string/app_name_p" />
+    
     <LinearLayout
         android:layout_width="fill_parent"
    		android:layout_height="wrap_content"
@@ -12,35 +16,24 @@
     	android:weightSum="8"
         >
     	<TextView
-	        android:layout_width="0dp"
-        	android:layout_height="wrap_content"
-        	android:textSize="30dp"
+	        style="@style/stextView.fit"
+	        android:layout_weight="1"
         	android:text="@string/N1"
-        	android:layout_weight="1"/>
+        	/>
     	<EditText
     	    android:id="@+id/etNum1"
-	        android:layout_width="0dp"
-        	android:layout_height="wrap_content"
-        	android:textSize="30dp"
-        	android:hint="num 1"
-        	android:textStyle="italic"
-        	android:inputType="numberDecimal"
-        	android:layout_weight="3"/>
+    	    style="@style/stextView.et.fit"
+    	    android:layout_weight="3"
+        	android:hint="num 1"/>
     	<TextView
-	        android:layout_width="0dp"
-        	android:layout_height="wrap_content"
-        	android:textSize="30dp"
-        	android:text="@string/N2"
-        	android:layout_weight="1"/>
+	        style="@style/stextView.fit"
+        	android:layout_weight="1"
+        	android:text="@string/N2"/>
     	<EditText
     	    android:id="@+id/etNum2"
-	        android:layout_width="0dp"
-        	android:layout_height="wrap_content"
-        	android:hint="num 2"
-        	android:textSize="30dp"
-        	android:textStyle="italic"
-        	android:inputType="numberDecimal"
-        	android:layout_weight="3"/>
+	        style="@style/stextView.et.fit"
+    	    android:layout_weight="3"
+        	android:hint="num 2"/>
 	</LinearLayout>
 	
     <RadioGroup 
@@ -50,35 +43,29 @@
         >
         <RadioButton 
             android:id="@+id/rSuma"
-            android:layout_width="wrap_content"
-   			android:layout_height="wrap_content"
+            style="@style/stextView"
    			android:text="@string/Op1"
    			android:checked="true"
             />
         <RadioButton 
             android:id="@+id/rResta"
-            android:layout_width="wrap_content"
-   			android:layout_height="wrap_content"
+            style="@style/stextView"
    			android:text="@string/Op2"
             />
         <RadioButton 
             android:id="@+id/rMultiplicacion"
-            android:layout_width="wrap_content"
-   			android:layout_height="wrap_content"
+            style="@style/stextView"
    			android:text="@string/Op3"
             />
         <RadioButton 
             android:id="@+id/rDivision"
-            android:layout_width="wrap_content"
-   			android:layout_height="wrap_content"
+            style="@style/stextView"
    			android:text="@string/Op4"
             />
     </RadioGroup>
 	<Button 
 	    android:id="@+id/bCalcular"
-	    android:layout_width="wrap_content"
-	   	android:layout_height="wrap_content"
-	   	android:textSize="30dp"
+	    style="@style/stextView"
 	    android:text="@string/calcular"
 	    />
 	
@@ -88,17 +75,12 @@
     	android:orientation="horizontal"
         >
     	<TextView
-	        android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:textSize="30dp"
+	        style="@style/stextView"
         	android:text="@string/Resultado" />
     	<EditText
     	    android:id="@+id/etResult"
-    	    android:textSize="30dp"
-	        android:layout_width="fill_parent"
-        	android:layout_height="wrap_content"
-        	android:textStyle="italic"
-        	android:inputType="numberDecimal"
+    	    style="@style/stextView.et.fit"
+    	    android:layout_weight="1"
         	android:enabled="false"/>
 	</LinearLayout>
 

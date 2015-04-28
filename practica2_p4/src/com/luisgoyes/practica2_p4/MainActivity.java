@@ -82,7 +82,7 @@ public class MainActivity extends Activity
 						ans.setText(Double.toString(n));
 					}else{
 						ans.setText("");
-						Toast.makeText(getApplicationContext(), "Error: faltan datos", Toast.LENGTH_SHORT).show();
+						Toast.makeText(getApplicationContext(), getResources().getString(R.string.errorF), Toast.LENGTH_SHORT).show();
 					}
 				}
 			});
