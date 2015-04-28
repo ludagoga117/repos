@@ -22,6 +22,7 @@
     <string name="h4">Watching movies</string>
     <string name="save">Save</string>
     <string name="age">Age:</string>
+    <string name="errorN">Error: All fields must be filled in</string>
 	<string-array name="ciudades_array">
         <item>Medellin</item>
         <item>Bogota</item>

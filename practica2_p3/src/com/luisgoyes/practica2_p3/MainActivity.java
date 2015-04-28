@@ -28,7 +28,8 @@ public class MainActivity extends Activity
 					double n = Double.parseDouble(et1)*0.15+Double.parseDouble(et2)*0.1+Double.parseDouble(et3)*.4+Double.parseDouble(et4)*.35;
 					et5.setText(Double.toString(n));
 				}else
-					et5.setText("Error: Faltan notas por anyadir");
+					et5.setText(getResources().getString(R.string.errorN));
+					et5.setEnabled(false);
 			}
 		});
     }

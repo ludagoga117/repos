@@ -22,6 +22,7 @@
     <string name="h4">Ver películas</string>
     <string name="save">Salvar</string>
     <string name="age">Edad:</string>
+    <string name="errorN">Error: Debe llenar todos los campos</string>
 	<string-array name="ciudades_array">
         <item>Medellin</item>
         <item>Bogota</item>

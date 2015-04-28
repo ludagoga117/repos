@@ -6,36 +6,41 @@
     tools:context="com.luisgoyes.practica2_p2.MainActivity" >
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
    		android:layout_height="wrap_content"
     	android:orientation="horizontal"
+    	android:weightSum="8"
         >
     	<TextView
-	        android:layout_width="wrap_content"
+	        android:layout_width="0dp"
         	android:layout_height="wrap_content"
         	android:textSize="30dp"
-        	android:text="@string/N1" />
+        	android:text="@string/N1"
+        	android:layout_weight="1"/>
     	<EditText
     	    android:id="@+id/etNum1"
-	        android:layout_width="wrap_content"
+	        android:layout_width="0dp"
         	android:layout_height="wrap_content"
         	android:textSize="30dp"
         	android:hint="num 1"
         	android:textStyle="italic"
-        	android:inputType="numberDecimal"/>
+        	android:inputType="numberDecimal"
+        	android:layout_weight="3"/>
     	<TextView
-	        android:layout_width="wrap_content"
+	        android:layout_width="0dp"
         	android:layout_height="wrap_content"
         	android:textSize="30dp"
-        	android:text="@string/N2" />
+        	android:text="@string/N2"
+        	android:layout_weight="1"/>
     	<EditText
     	    android:id="@+id/etNum2"
-	        android:layout_width="wrap_content"
+	        android:layout_width="0dp"
         	android:layout_height="wrap_content"
         	android:hint="num 2"
         	android:textSize="30dp"
         	android:textStyle="italic"
-        	android:inputType="numberDecimal"/>
+        	android:inputType="numberDecimal"
+        	android:layout_weight="3"/>
 	</LinearLayout>
 	
     <RadioGroup 
@@ -69,19 +74,19 @@
    			android:text="@string/Op4"
             />
     </RadioGroup>
-
+	<Button 
+	    android:id="@+id/bCalcular"
+	    android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:textSize="30dp"
+	    android:text="@string/calcular"
+	    />
+	
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
    		android:layout_height="wrap_content"
     	android:orientation="horizontal"
         >
-        <Button 
-	        android:id="@+id/bCalcular"
-	        android:layout_width="wrap_content"
-	   		android:layout_height="wrap_content"
-	   		android:textSize="30dp"
-	   		android:text="@string/calcular"
-	        />
     	<TextView
 	        android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
@@ -90,7 +95,7 @@
     	<EditText
     	    android:id="@+id/etResult"
     	    android:textSize="30dp"
-	        android:layout_width="wrap_content"
+	        android:layout_width="fill_parent"
         	android:layout_height="wrap_content"
         	android:textStyle="italic"
         	android:inputType="numberDecimal"

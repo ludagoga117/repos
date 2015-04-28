@@ -26,30 +26,24 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/base"
 				/>
 			<EditText
 				android:id="@+id/etBase"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
+				style="@style/textViewStyle.in"
 				android:hint="0.0"
-				android:textSize="30dp"
 				android:inputType="numberDecimal"
-				android:layout_weight="1"
 				/>
 			<TextView
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/altura"
 				/>
 			<EditText
 				android:id="@+id/etAltura"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
+				style="@style/textViewStyle.in"
 				android:hint="0.0"
-				android:textSize="30dp"
 				android:inputType="numberDecimal"
-				android:layout_weight="1"
 				/>
 		</LinearLayout>
 
@@ -58,30 +52,24 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
 			<TextView
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/radio"
 				/>
 			<EditText
 				android:id="@+id/etRadio"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
+				style="@style/textViewStyle.in"
 				android:hint="0.0"
-				android:textSize="30dp"
 				android:inputType="numberDecimal"
-				android:layout_weight="1"
 				/>
 			<TextView
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/lado"
 				/>
 			<EditText
 				android:id="@+id/etLado"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
+				style="@style/textViewStyle.in"
 				android:hint="0.0"
-				android:textSize="30dp"
 				android:inputType="numberDecimal"
-				android:layout_weight="1"
 				/>
 		</LinearLayout>
 
@@ -92,23 +80,23 @@
 		>
 			<RadioButton 
 				android:id="@+id/rTriangulo"
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/triangulo"
 				android:checked="true"
 			/>
 			<RadioButton 
 				android:id="@+id/rCuadro"
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/cuadrado"
 			/>
 			<RadioButton 
 				android:id="@+id/rRect"
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/rectangulo"
 			/>
 			<RadioButton 
 				android:id="@+id/rCirculo"
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/circulo"
 			/>
 		</RadioGroup>
@@ -121,7 +109,7 @@
 		>
 			<Button
 				android:id="@+id/bCalcular"
-				style="@style/textViewStyle.in"
+				style="@style/textViewStyle"
 				android:text="@string/compute"
 			/>
 		</LinearLayout>

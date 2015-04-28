@@ -9,7 +9,7 @@
 		<item name="android:textSize">30dp</item>
 	</style>
 	<style name="textViewStyle.in">
-		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_width">0dp</item>
 		<item name="android:layout_weight">1</item>
 	</style>
 </resources>

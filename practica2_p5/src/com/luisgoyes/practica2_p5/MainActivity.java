@@ -94,7 +94,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener
 		TextView tv_Hobbies = (TextView)findViewById(R.id.tvHobbies);
 		
 		if(cEt1.isEmpty()|cEt2.isEmpty()|cEt3.isEmpty()|cEt4.isEmpty()){
-			Toast.makeText(getApplicationContext(), "Debe llenar todos los campos", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(), getResources().getString(R.string.errorN), Toast.LENGTH_SHORT).show();
 		}else{
 			PD1.setNombre(cEt1);
 			PD1.setTelefono(cEt2);

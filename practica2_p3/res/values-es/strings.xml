@@ -9,4 +9,5 @@
 	<string name="N3">Laboratorio (40%):</string>
 	<string name="N4">Proyecto Final (35%):</string>
 	<string name="calc">Calcular</string>
+	<string name="errorN">Error: Faltan notas por añadir</string>
 </resources>

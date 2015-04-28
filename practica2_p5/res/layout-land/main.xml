@@ -24,7 +24,7 @@
 				/>
 			<EditText
 				android:id="@+id/etNombre"
-				android:layout_width="fill_parent"
+				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:hint="@string/hname"
 				android:textSize="30dp"
@@ -39,7 +39,7 @@
 				/>
 			<EditText
 				android:id="@+id/etTelefono"
-				android:layout_width="fill_parent"
+				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:hint="@string/hTelefono"
 				android:textSize="30dp"
@@ -59,7 +59,7 @@
 				android:textSize="30dp"/>
 			<EditText
 				android:id="@+id/etCorreo"
-				android:layout_width="fill_parent"
+				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:hint="@string/hEmail"
 				android:textSize="30dp"
@@ -107,12 +107,13 @@
 				android:textSize="30dp"/>
 			<EditText
 				android:id="@+id/etFecha"
-				android:layout_width="wrap_content"
+				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:hint="@string/hfecha"
 				android:textSize="30dp"
 				android:inputType="date"
 				android:enabled="false"
+				android:layout_weight="1"
 				/>
 			<Button 
 				android:layout_width="wrap_content" 

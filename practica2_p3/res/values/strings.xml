@@ -9,4 +9,5 @@
 	<string name="N3">Laboratories (40%):</string>
 	<string name="N4">Final project (35%):</string>
 	<string name="calc">Compute</string>
+	<string name="errorN">Error: There are some grades missing</string>
 </resources>
