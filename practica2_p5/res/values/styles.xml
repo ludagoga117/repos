@@ -26,7 +26,18 @@
 	<style name="stextView.et.fit">
 		<item name="android:layout_width">0dp</item>
 		<item name="android:textStyle">italic</item>
-		<item name="android:inputType">numberDecimal</item>
 		<item name="android:layout_weight">1</item>
+	</style>
+	<style name="stextView.et.fit.text">
+		<item name="android:inputType">text</item>
+	</style>
+	<style name="stextView.et.fit.phone">
+		<item name="android:inputType">phone</item>
+	</style>
+	<style name="stextView.et.fit.email">
+		<item name="android:inputType">textEmailAddress</item>
+	</style>
+	<style name="stextView.et.fit.fecha">
+		<item name="android:inputType">date</item>
 	</style>
 </resources>

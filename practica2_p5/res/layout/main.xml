@@ -9,7 +9,9 @@
 		android:orientation="vertical"
 	>
 		<TextView
-			style="@style/stextView.Titulo"/>
+			style="@style/stextView.Titulo"
+			android:text="@string/app_name_p"
+			/>
 		<LinearLayout
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
@@ -19,12 +21,8 @@
 				android:text="@string/name"/>
 			<EditText
 				android:id="@+id/etNombre"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				style="@style/stextView.et.fit.text"
 				android:hint="@string/hname"
-				android:textSize="30dp"
-				android:inputType="text"
-				android:layout_weight="1"
 				/>
 		</LinearLayout>
 
@@ -37,12 +35,8 @@
 				android:text="@string/Telefono"/>
 			<EditText
 				android:id="@+id/etTelefono"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				style="@style/stextView.et.fit.phone"
 				android:hint="@string/hTelefono"
-				android:textSize="30dp"
-				android:inputType="phone"
-				android:layout_weight="1"
 				/>
 		</LinearLayout>
 
@@ -55,12 +49,8 @@
 				android:text="@string/Email"/>
 			<EditText
 				android:id="@+id/etCorreo"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				style="@style/stextView.et.fit.email"
 				android:hint="@string/hEmail"
-				android:textSize="30dp"
-				android:inputType="textEmailAddress"
-				android:layout_weight="1"
 				/>
 		</LinearLayout>
 
@@ -96,13 +86,9 @@
 				android:text="@string/fecha"/>
 			<EditText
 				android:id="@+id/etFecha"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				style="@style/stextView.et.fit.fecha"
 				android:hint="@string/hfecha"
-				android:textSize="30dp"
-				android:inputType="date"
 				android:enabled="false"
-				android:layout_weight="1"
 				/>
 			<Button 
 				style="@style/stextView"
