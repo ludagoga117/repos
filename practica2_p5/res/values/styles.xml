@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
 	</style>	
 	<style name="stextView" parent = "@android:style/TextAppearance.Medium">
@@ -7,11 +7,12 @@
 		<item name="android:layout_height">wrap_content</item>
 		<item name="android:textColor">#000000</item>
 		<item name="android:textSize">30dp</item>
+		<item name="android:typeface">serif</item>
 	</style>
 	<style name="stextView.Titulo">
 		<item name="android:layout_width">fill_parent</item>
 		<item name="android:layout_height">wrap_content</item>
-		<item name="android:textColor">#fe0000</item>
+		<item name="android:textColor">@color/salmon</item>
 		<item name="android:textSize">40dp</item>
 		<item name="android:textStyle">italic</item>
 	</style>
